@@ -1,0 +1,33 @@
+{
+    "folders": 
+    [
+        {
+            "path": "."
+        }
+    ],
+    "settings": 
+    {
+        "python.autoComplete.extraPaths": 
+        [
+            "..\\Intermediate\\PythonStub"
+        ],
+        "python.analysis.extraPaths": 
+        [
+            "..\\Intermediate\\PythonStub"
+        ] 
+        
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Python: Archivo actual",
+                "type": "python",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal",
+                "justMyCode": true
+            }
+        ]
+    }
+}
